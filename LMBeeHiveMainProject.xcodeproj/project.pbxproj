@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22988778EE37F6F64F4D7D37 /* Pods_LMBeeHiveMainProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF3DFCDB3CACB84A8CF4833 /* Pods_LMBeeHiveMainProject.framework */; };
 		F771347020187EC300987952 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F771346F20187EC300987952 /* AppDelegate.m */; };
 		F771347320187EC300987952 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F771347220187EC300987952 /* ViewController.m */; };
 		F771347620187EC300987952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F771347420187EC300987952 /* Main.storyboard */; };
 		F771347820187EC300987952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F771347720187EC300987952 /* Assets.xcassets */; };
 		F771347B20187EC300987952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F771347920187EC300987952 /* LaunchScreen.storyboard */; };
 		F771347E20187EC300987952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F771347D20187EC300987952 /* main.m */; };
+		F771348A201986B200987952 /* LMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7713489201986B200987952 /* LMAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CF3DFCDB3CACB84A8CF4833 /* Pods_LMBeeHiveMainProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMBeeHiveMainProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E79FAB9A02357D43860FB7 /* Pods-LMBeeHiveMainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMBeeHiveMainProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-LMBeeHiveMainProject/Pods-LMBeeHiveMainProject.release.xcconfig"; sourceTree = "<group>"; };
+		8461F8F0B9A64434C263D2A1 /* Pods-LMBeeHiveMainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMBeeHiveMainProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LMBeeHiveMainProject/Pods-LMBeeHiveMainProject.debug.xcconfig"; sourceTree = "<group>"; };
 		F771346B20187EC300987952 /* LMBeeHiveMainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMBeeHiveMainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F771346E20187EC300987952 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F771346F20187EC300987952 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,8 @@
 		F771347A20187EC300987952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F771347C20187EC300987952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F771347D20187EC300987952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7713488201986B200987952 /* LMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMAppDelegate.h; sourceTree = "<group>"; };
+		F7713489201986B200987952 /* LMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22988778EE37F6F64F4D7D37 /* Pods_LMBeeHiveMainProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A45E77786D5A2AE7469D6BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CF3DFCDB3CACB84A8CF4833 /* Pods_LMBeeHiveMainProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56263D465AC4A3E4718ED250 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8461F8F0B9A64434C263D2A1 /* Pods-LMBeeHiveMainProject.debug.xcconfig */,
+				48E79FAB9A02357D43860FB7 /* Pods-LMBeeHiveMainProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F771346220187EC300987952 = {
 			isa = PBXGroup;
 			children = (
 				F771346D20187EC300987952 /* LMBeeHiveMainProject */,
 				F771346C20187EC300987952 /* Products */,
+				56263D465AC4A3E4718ED250 /* Pods */,
+				3A45E77786D5A2AE7469D6BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +87,8 @@
 			children = (
 				F771346E20187EC300987952 /* AppDelegate.h */,
 				F771346F20187EC300987952 /* AppDelegate.m */,
+				F7713488201986B200987952 /* LMAppDelegate.h */,
+				F7713489201986B200987952 /* LMAppDelegate.m */,
 				F771347120187EC300987952 /* ViewController.h */,
 				F771347220187EC300987952 /* ViewController.m */,
 				F771347420187EC300987952 /* Main.storyboard */,
@@ -78,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F771348120187EC300987952 /* Build configuration list for PBXNativeTarget "LMBeeHiveMainProject" */;
 			buildPhases = (
+				5648143C87F58CA74744D13F /* [CP] Check Pods Manifest.lock */,
 				F771346720187EC300987952 /* Sources */,
 				F771346820187EC300987952 /* Frameworks */,
 				F771346920187EC300987952 /* Resources */,
+				98831FE42D4CC3FE1343E2C3 /* [CP] Embed Pods Frameworks */,
+				83A72A607F1F43BB24325E5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -102,7 +134,7 @@
 				TargetAttributes = {
 					F771346A20187EC300987952 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -137,6 +169,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5648143C87F58CA74744D13F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LMBeeHiveMainProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83A72A607F1F43BB24325E5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LMBeeHiveMainProject/Pods-LMBeeHiveMainProject-resources.sh",
+				"${PODS_ROOT}/BeeHive/BeeHive/BeeHive.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMBeeHiveMainProject/Pods-LMBeeHiveMainProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98831FE42D4CC3FE1343E2C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LMBeeHiveMainProject/Pods-LMBeeHiveMainProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BeeHive/BeeHive.framework",
+				"${BUILT_PRODUCTS_DIR}/LMHomeModule/LMHomeModule.framework",
+				"${BUILT_PRODUCTS_DIR}/LMUserModule/LMUserModule.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BeeHive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMHomeModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMUserModule.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMBeeHiveMainProject/Pods-LMBeeHiveMainProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F771346720187EC300987952 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -145,6 +238,7 @@
 				F771347320187EC300987952 /* ViewController.m in Sources */,
 				F771347E20187EC300987952 /* main.m in Sources */,
 				F771347020187EC300987952 /* AppDelegate.m in Sources */,
+				F771348A201986B200987952 /* LMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,26 +370,32 @@
 		};
 		F771348220187EC300987952 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8461F8F0B9A64434C263D2A1 /* Pods-LMBeeHiveMainProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LMBeeHiveMainProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lemon.LMBeeHiveMainProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		F771348320187EC300987952 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E79FAB9A02357D43860FB7 /* Pods-LMBeeHiveMainProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LMBeeHiveMainProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lemon.LMBeeHiveMainProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

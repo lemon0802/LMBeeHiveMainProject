@@ -1,0 +1,28 @@
+{
+  "name": "LMUserModule",
+  "version": "1",
+  "summary": "LMUserModule.",
+  "description": "this is LMUserModule",
+  "homepage": "https://github.com/lemon0802/LMUserModule",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "Lemon": "lemonfan.cn"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/lemon0802/LMUserModule.git",
+    "tag": "1"
+  },
+  "source_files": "LMUserModule/LMUserModule/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "BeeHive": [
+
+    ]
+  }
+}

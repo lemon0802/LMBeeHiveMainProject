@@ -1,0 +1,37 @@
+PODS:
+  - BeeHive (1.5.1)
+  - LMHomeModule (0.0.4):
+    - BeeHive
+    - LMHomeServeice
+  - LMHomeServeice (0.0.3):
+    - BeeHive
+  - LMUserModule (1):
+    - BeeHive
+  - LMUserServeice (1):
+    - BeeHive
+
+DEPENDENCIES:
+  - BeeHive
+  - LMHomeModule (from `../LMHomeModule/LMHomeModule.podspec`)
+  - LMHomeServeice
+  - LMUserModule (from `../LMUserModule/LMUserModule.podspec`)
+  - LMUserServeice (from `../LMUserServeice/LMUserServeice.podspec`)
+
+EXTERNAL SOURCES:
+  LMHomeModule:
+    :path: ../LMHomeModule/LMHomeModule.podspec
+  LMUserModule:
+    :path: ../LMUserModule/LMUserModule.podspec
+  LMUserServeice:
+    :path: ../LMUserServeice/LMUserServeice.podspec
+
+SPEC CHECKSUMS:
+  BeeHive: b135a33b3519814ec5d117318d205e10c997450f
+  LMHomeModule: d3e21fe67b9ac9e7d95f6599ac98688065067dab
+  LMHomeServeice: 40811134f356cebbcb15ae11fa656cd5a00703dd
+  LMUserModule: c7416b043adb96522e5ef7b81934b5af9900e2fa
+  LMUserServeice: 2575129bd1563c9dedcd54136e85481b94486362
+
+PODFILE CHECKSUM: a186a3498165459d057d2141e1ae66939d96cd90
+
+COCOAPODS: 1.4.0

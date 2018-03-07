@@ -1,0 +1,28 @@
+{
+  "name": "LMUserServeice",
+  "version": "1",
+  "summary": "LMUserServeice.",
+  "description": "this is LMUserServeice",
+  "homepage": "https://github.com/lemon0802/LMUserService",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "Lemon": "lemonfan.cn"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/lemon0802/LMUserService.git",
+    "tag": "1"
+  },
+  "source_files": "LMUserServeice/LMUserServeice/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "BeeHive": [
+
+    ]
+  }
+}

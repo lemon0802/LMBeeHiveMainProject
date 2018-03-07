@@ -1,0 +1,6 @@
+framework module LMUserModule {
+  umbrella header "LMUserModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
